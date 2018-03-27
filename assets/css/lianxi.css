@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.banner {
+  position: relative;
+  width: 1260px;
+  height: 605px;
+  margin: 0 auto;
+  background-image: url("../../produts/images/zhuanli/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.banner-info {
+  font-family: "微软雅黑";
+  position: absolute;
+  top: 100px;
+  color: #fff;
+  left: 50%;
+  width: 1000px;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  text-align: center; }
+  .banner-info > h2 {
+    margin-top: 140px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 4px; }
+  .banner-info > h4 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-top: 10px; }
+
+.map {
+  width: 1200px;
+  height: 480px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("../../produts/images/lianxi/map.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  margin-bottom: 70px; }
+
+/*# sourceMappingURL=lianxi.css.map */

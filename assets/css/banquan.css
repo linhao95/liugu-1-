@@ -1,0 +1,117 @@
+@charset "UTF-8";
+.banner {
+  position: relative;
+  width: 1260px;
+  height: 605px;
+  margin: 0 auto;
+  background-image: url("../../produts/images/banquan/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.banner-info {
+  font-family: "微软雅黑";
+  position: absolute;
+  top: 100px;
+  color: #fff;
+  left: 50%;
+  width: 1000px;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  text-align: center; }
+  .banner-info > h2 {
+    margin-top: 140px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 4px; }
+  .banner-info > h4 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-top: 10px; }
+
+.jiazhi {
+  position: relative;
+  width: 1260px;
+  height: 520px;
+  margin: 0 auto; }
+
+.jiazhi-item {
+  width: 820px;
+  height: 364px;
+  margin: 0 auto; }
+  .jiazhi-item > section {
+    width: 116px;
+    height: 160px;
+    float: left;
+    margin-right: 118px;
+    margin-bottom: 40px; }
+    .jiazhi-item > section:nth-child(4) {
+      margin-right: 0; }
+    .jiazhi-item > section:nth-child(8) {
+      margin-right: 0; }
+    .jiazhi-item > section > img {
+      display: block;
+      margin: 0 auto; }
+    .jiazhi-item > section > h4 {
+      font-size: 20px;
+      text-align: center;
+      margin-top: 30px;
+      font-weight: 400;
+      letter-spacing: 3px; }
+    .jiazhi-item > section > h5 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 10px;
+      letter-spacing: 2px; }
+
+.liucheng {
+  position: relative;
+  width: 1260px;
+  height: 550px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../produts/images/banquan/liucheng.jpg");
+  padding-top: 1px;
+  margin-bottom: 30px; }
+
+.liucheng-title > h3 {
+  color: #fff !important; }
+.liucheng-title > span {
+  display: block;
+  width: 218px;
+  height: 1px;
+  background-color: #FFF; }
+
+.liucheng-item {
+  width: 980px;
+  margin: 0 auto; }
+  .liucheng-item > section {
+    width: 160px;
+    height: 205px;
+    float: left;
+    margin-top: 40px;
+    margin-right: 45px; }
+    .liucheng-item > section:last-child {
+      margin-right: 0; }
+    .liucheng-item > section > img {
+      display: block;
+      margin: 0 auto; }
+    .liucheng-item > section > h4 {
+      text-align: center;
+      color: #fff;
+      font-size: 24px;
+      line-height: 60px;
+      letter-spacing: 4px;
+      font-weight: 400; }
+    .liucheng-item > section > h5 {
+      color: #fff;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      white-space: nowrap; }
+
+/*# sourceMappingURL=banquan.css.map */

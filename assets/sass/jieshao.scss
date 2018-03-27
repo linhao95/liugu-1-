@@ -1,0 +1,144 @@
+@charset "utf-8";
+// banner
+.banner {
+    position: relative;
+    width: 1260px;
+    height: 605px;
+    margin: 0 auto;
+    background-image: url("../../produts/images/zhuanli/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-info {
+    font-family: "微软雅黑";
+    position: absolute;
+    top: 100px;
+    color: #fff;
+    left: 50%;
+    width: 1000px;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    text-align: center;
+    &>h2 {
+        margin-top: 140px;
+        margin-bottom: 40px;
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: 4px;
+    }
+    &>h4 {
+        font-size: 20px;
+        letter-spacing: 4px;
+        line-height: 40px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+}
+// 介绍部分
+.jieshao {
+    position: relative;
+    width: 1260px;
+    height: 370px;
+    margin: 0 auto;
+}
+.jieshao-title {
+    margin-bottom: 50px;
+}
+.jieshao-info {
+    width: 980px;
+    margin: 0 auto;
+    &>p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+}
+//介绍下面的图
+.jieshao-image {
+    position: relative;
+    width: 1260px;
+    height: 358px;
+    margin: 0 auto;
+    background-image: url("../../produts/images/jieshao/jieshao.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.jiehsao-image-item {
+    width: 1000px;
+    height: 358px;
+    margin: 0 auto;
+    &>section {
+        float: left;
+        width: 122px;
+        margin-right: 97px;
+        margin-top: 83px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &>span {
+            display: block;
+            width: 122px;
+            height: 122px;
+            margin: 0 auto;
+            border: 1.5px solid #fff;
+            border-radius: 200px;
+            cursor: pointer;
+            box-sizing: border-box;
+            &:hover {
+                box-shadow: 0px 0px 8px rgba(255, 255, 255, .5);
+            }
+            &>img {
+                display: block;
+                margin: 0 auto;
+                margin-top: 25px;
+            }
+        }
+        &>h4 {
+            text-align: center;
+            font-size: 22px;
+            font-weight: 400;
+            letter-spacing: 4px;
+            line-height: 40px;
+            margin-top: 30px;
+            color: #fff;
+        }
+    }
+}
+// 合作伙伴部分
+.huoban {
+    position: relative;
+    width: 1260px;
+    height: 550px;
+    margin: 0 auto;
+}
+.huoban-title {
+    margin-bottom: 50px;
+}
+.huoban-item {
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+    &>section {
+        width: 260px;
+        height: 162px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+        float: left;
+        margin-right: 40px;
+        margin-bottom: 45px;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 0px 0px 13px rgba(0, 0, 0, .3);
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+        &>img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}

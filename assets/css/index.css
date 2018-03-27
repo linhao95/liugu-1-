@@ -1,0 +1,309 @@
+@charset "UTF-8";
+.aboutUs-title > h3 {
+  color: #fff !important; }
+.aboutUs-title > span {
+  display: block;
+  width: 218px;
+  height: 1px;
+  background-color: #FFF; }
+
+.advantage-title > h3 {
+  color: #fff !important; }
+.advantage-title > span {
+  display: block;
+  width: 218px;
+  height: 1px;
+  background-color: #FFF; }
+
+.partner-title {
+  margin-bottom: 10px; }
+  .partner-title > h3 {
+    margin-top: 0; }
+
+.banner {
+  position: relative;
+  width: 1260px;
+  height: 607px;
+  margin: 0 auto;
+  background-image: url("../../images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.banner-info {
+  font-family: "微软雅黑";
+  position: absolute;
+  top: 100px;
+  color: #fff;
+  left: 50%;
+  width: 1000px;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  text-align: center; }
+  .banner-info > h2 {
+    font-size: 62px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-top: 43px; }
+  .banner-info > h5 {
+    font-size: 26px;
+    margin-top: 37px;
+    margin-bottom: 75px;
+    letter-spacing: 10px;
+    font-weight: 400; }
+
+.banner-info-icon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-429px);
+  width: 100%; }
+  .banner-info-icon > section {
+    position: relative;
+    width: 138px;
+    height: 138px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    float: left;
+    margin-right: 100px;
+    transform: rotate(45deg);
+    cursor: pointer; }
+    .banner-info-icon > section:last-child {
+      margin: 0; }
+    .banner-info-icon > section > h5 {
+      font-family: "微软雅黑";
+      position: absolute;
+      transform: rotate(-45deg);
+      top: 105%;
+      left: 70%;
+      white-space: nowrap;
+      font-size: 18px;
+      color: #f9fafc;
+      letter-spacing: 2px;
+      font-weight: 400; }
+    .banner-info-icon > section > img {
+      position: absolute;
+      right: 28%;
+      top: 20%;
+      transform: rotate(-45deg); }
+    .banner-info-icon > section:hover {
+      box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5); }
+
+.service {
+  position: relative;
+  width: 1260px;
+  margin: 0 auto;
+  margin-bottom: 64px; }
+
+.service-item {
+  position: relative;
+  width: 1000px;
+  height: 366px;
+  margin: 0 auto;
+  font-family: "微软雅黑"; }
+  .service-item > section {
+    width: 300px;
+    height: 366px;
+    margin-right: 50px;
+    float: left;
+    text-align: center; }
+    .service-item > section:last-child {
+      margin: 0; }
+    .service-item > section > img {
+      margin-bottom: 26px; }
+    .service-item > section > h3 {
+      font-size: 22px;
+      letter-spacing: 2px;
+      font-weight: 400;
+      margin-bottom: 20px; }
+    .service-item > section > p {
+      line-height: 34px; }
+
+.aboutUs {
+  position: relative;
+  width: 1260px;
+  height: 463px;
+  margin: 0 auto;
+  background-image: url("../../images/aboutus.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 1px;
+  text-align: center; }
+  .aboutUs > p {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 4px; }
+
+.aboutUs-item {
+  position: relative;
+  width: 930px;
+  margin: 0 auto;
+  height: 120px; }
+  .aboutUs-item > a {
+    display: block;
+    margin-right: 145px;
+    float: left;
+    text-decoration: none; }
+    .aboutUs-item > a:last-child {
+      margin-right: 0; }
+    .aboutUs-item > a > section {
+      width: 120px;
+      height: 120px;
+      border: 1px solid #fff;
+      border-radius: 100px;
+      margin-top: 64px;
+      cursor: pointer; }
+      .aboutUs-item > a > section:hover {
+        box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5); }
+      .aboutUs-item > a > section > img {
+        margin-top: 30px; }
+      .aboutUs-item > a > section > h4 {
+        margin-top: 40px;
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 400; }
+
+.search {
+  position: relative;
+  width: 1260px;
+  height: 102px;
+  margin: 0 auto;
+  background: #fff;
+  margin-top: 45px; }
+
+#searchForm {
+  height: 102px;
+  width: 846px;
+  margin: 0 auto;
+  border: 1px solid #0068b7;
+  border-radius: 10px; }
+  #searchForm > input {
+    height: 99%;
+    width: 526px;
+    border-radius: 10px;
+    border: 0px;
+    line-height: 90px;
+    font-size: 50px;
+    color: #333;
+    font-weight: 300; }
+  #searchForm > button {
+    float: right;
+    width: 320px;
+    height: 100%;
+    background-color: #0068b7;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    line-height: 102px;
+    cursor: pointer; }
+    #searchForm > button > span {
+      display: inline-block;
+      height: 54px;
+      width: 54px;
+      background-image: url("../../images/search.png");
+      position: relative;
+      top: 20px;
+      right: 5px; }
+
+.proInfo {
+  position: relative;
+  width: 1280px;
+  height: 517px;
+  margin: 0 auto;
+  background: #fff;
+  margin-top: 45px;
+  background-image: url("../../images/info.png");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.advantage {
+  position: relative;
+  width: 1260px;
+  height: 615px;
+  margin: 0 auto;
+  background: #fff;
+  margin-top: 45px;
+  background-image: url("../../images/advantage-bg.jpg");
+  margin-top: 18px;
+  padding-top: 1px; }
+
+.advantage-item {
+  width: 1240px;
+  height: 290px;
+  margin: 0 auto; }
+  .advantage-item > section {
+    box-sizing: border-box;
+    width: 276px;
+    height: 290px;
+    float: left;
+    border: 1px solid #4a9dca;
+    border-radius: 10px;
+    margin-right: 45px;
+    margin-top: 90px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .advantage-item > section:last-child {
+      margin-right: 0; }
+    .advantage-item > section > h4 {
+      position: relative;
+      left: 39px;
+      top: -79px;
+      display: block;
+      width: 158px;
+      height: 158px;
+      background-color: #4a9dca;
+      border-radius: 100px;
+      line-height: 158px;
+      font-size: 34px;
+      color: #fff;
+      font-weight: 300;
+      letter-spacing: 6px; }
+    .advantage-item > section > h5 {
+      position: relative;
+      top: -45px;
+      font-size: 22px;
+      font-weight: 300;
+      color: #fff;
+      letter-spacing: 3px; }
+    .advantage-item > section > p {
+      position: relative;
+      top: -20px;
+      font-weight: 300;
+      font-size: 16px;
+      letter-spacing: 3px;
+      line-height: 25px;
+      color: #fff; }
+
+.partner {
+  position: relative;
+  width: 1260px;
+  height: 630px;
+  margin: 0 auto;
+  background: #fff;
+  background-image: url("../../images/partner-bg.jpg");
+  background-repeat: no-repeat;
+  padding-top: 38px; }
+
+.parter-item {
+  width: 1260px;
+  height: 448px;
+  margin: 0 auto;
+  cursor: pointer; }
+  .parter-item > section {
+    width: 293px;
+    height: 197px;
+    float: left;
+    margin-right: 29px;
+    margin-top: 50px;
+    border-radius: 10px; }
+    .parter-item > section:nth-child(4) {
+      margin-right: 0px; }
+    .parter-item > section:nth-child(8) {
+      margin-right: 0px; }
+    .parter-item > section:hover {
+      box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5); }
+
+/*# sourceMappingURL=index.css.map */

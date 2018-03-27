@@ -1,0 +1,257 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?eczng7");
+  src: url("../fonts/icomoon.eot?eczng7#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?eczng7") format("truetype"), url("../fonts/icomoon.woff?eczng7") format("woff"), url("../fonts/icomoon.svg?eczng7#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  width: 100%;
+  height: 100%; }
+
+.content-title {
+  position: relative;
+  text-align: center;
+  font-family: "微软雅黑";
+  margin-bottom: 70px; }
+  .content-title > h3 {
+    position: relative;
+    font-size: 40px;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 34px; }
+  .content-title > span {
+    display: block;
+    width: 218px;
+    height: 1px;
+    background-color: #434343; }
+    .content-title > span:first-child {
+      position: absolute;
+      left: 250px;
+      top: 50%; }
+    .content-title > span:last-child {
+      position: absolute;
+      right: 250px;
+      top: 50%; }
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(254, 254, 254, 0.9);
+  z-index: 100; }
+  header.small {
+    background-color: rgba(254, 254, 254, 0.9);
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.2);
+    height: 60px; }
+    header.small > div {
+      height: 60px; }
+    header.small .logo {
+      height: 60px; }
+      header.small .logo > img {
+        margin-top: 2px; }
+    header.small nav {
+      height: 60px; }
+      header.small nav > ul > li {
+        line-height: 60px; }
+        header.small nav > ul > li.current > a {
+          padding-bottom: 15px; }
+  header > div {
+    position: relative;
+    top: 0;
+    width: 1280px;
+    height: 100px;
+    margin: 0 auto; }
+  header .logo {
+    position: absolute;
+    left: 0;
+    width: 150px;
+    height: 100px; }
+    header .logo > img {
+      margin-top: 20px;
+      margin-left: 20px; }
+  header nav {
+    position: absolute;
+    right: 0;
+    height: 100px; }
+    header nav > ul {
+      list-style: none;
+      font-family: "微软雅黑"; }
+      header nav > ul > li {
+        float: left;
+        line-height: 100px;
+        margin-right: 40px;
+        font-size: 18px; }
+        header nav > ul > li > a {
+          color: #050505;
+          letter-spacing: 3px;
+          text-decoration: none; }
+          header nav > ul > li > a:hover {
+            color: #3c69ad; }
+        header nav > ul > li.current > a {
+          color: #3c69ad;
+          padding-bottom: 35px;
+          border-bottom: 3px solid #3c69ad; }
+
+footer {
+  background-color: rgba(94, 119, 153, 0.95);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto; }
+  footer .zixun {
+    position: relative;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto; }
+  footer .zixun-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 284px;
+    height: 76px; }
+    footer .zixun-info > h4 {
+      font-size: 18px;
+      color: #fff;
+      letter-spacing: 3px;
+      font-weight: 300;
+      margin-top: 10px; }
+      footer .zixun-info > h4:first-child {
+        margin-bottom: 10px; }
+  footer .zixun-form {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 284px;
+    height: 76px;
+    border: 1px solid #fff;
+    padding: 2px 2px; }
+    footer .zixun-form input {
+      height: 37px;
+      border: 0;
+      padding-left: 4px; }
+      footer .zixun-form input:first-child {
+        margin-bottom: 2px; }
+    footer .zixun-form button {
+      float: right;
+      height: 76px;
+      width: 110px;
+      border: 0;
+      background-color: transparent;
+      cursor: pointer;
+      color: #fff;
+      letter-spacing: 2px; }
+      footer .zixun-form button:hover {
+        text-shadow: 0px 0px 3px #fff; }
+  footer .zixun-item {
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 280px; }
+    footer .zixun-item > section {
+      width: auto;
+      height: 50px;
+      float: left;
+      margin-right: 22px;
+      line-height: 50px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 2px; }
+      footer .zixun-item > section > span {
+        margin-right: 5px;
+        cursor: pointer; }
+      footer .zixun-item > section:nth-child(1) > span {
+        font-family: "icomoon"; }
+        footer .zixun-item > section:nth-child(1) > span:nth-child(1)::before {
+          content: "\ea93"; }
+      footer .zixun-item > section:nth-child(3) > span {
+        font-family: "icomoon"; }
+        footer .zixun-item > section:nth-child(3) > span:nth-child(1)::before {
+          content: "\e92e"; }
+      footer .zixun-item > section:nth-child(5) {
+        margin-right: 0; }
+        footer .zixun-item > section:nth-child(5) > span {
+          font-family: "icomoon"; }
+          footer .zixun-item > section:nth-child(5) > span:nth-child(1)::before {
+            content: "\ea4e"; }
+
+@media (max-width: 1280px) {
+  header {
+    height: 80px; }
+    header > div {
+      position: relative;
+      top: 0;
+      width: 1280px;
+      height: 80px;
+      margin: 0 auto; }
+    header .logo {
+      height: 80px; }
+      header .logo > img {
+        margin-top: 15px; }
+    header nav {
+      height: 80px; }
+      header nav > ul > li {
+        line-height: 80px; }
+        header nav > ul > li.current > a {
+          padding-bottom: 25px; }
+
+  footer {
+    height: 80px; }
+    footer .zixun {
+      height: 80px; }
+    footer .zixun-info {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 284px; }
+      footer .zixun-info > h4 {
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 3px;
+        font-weight: 300;
+        margin-top: 10px; }
+        footer .zixun-info > h4:first-child {
+          margin-bottom: 10px; }
+    footer .zixun-form {
+      height: 70px;
+      border: 1px solid #fff;
+      padding: 2px 2px; }
+      footer .zixun-form input {
+        height: 34px; }
+      footer .zixun-form button {
+        height: 70px;
+        border: 0; }
+    footer .zixun-item > section {
+      line-height: 30px; } }
+.contactUs {
+  position: relative;
+  width: 1200px;
+  height: 220px;
+  margin: 0 auto;
+  margin-bottom: 200px; }
+
+.contactUs-info > h4 {
+  font-size: 50px;
+  margin-bottom: 20px; }
+.contactUs-info > h5 {
+  font-size: 20px;
+  color: #040404;
+  font-weight: 400;
+  line-height: 40px; }
+
+.contactUs-logo {
+  float: right;
+  position: absolute;
+  top: 80px;
+  right: 0px; }
+
+/*# sourceMappingURL=main.css.map */

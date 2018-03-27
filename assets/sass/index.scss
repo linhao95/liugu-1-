@@ -1,0 +1,366 @@
+@charset "utf-8";
+
+// 联系我们的标题样式
+.aboutUs-title {
+    &>h3 {
+     color: #fff !important;
+    }
+    &>span {
+        display: block;
+        width: 218px;
+        height: 1px;
+        background-color: #FFF;
+    }
+}
+// 我们的优势标题样式
+.advantage-title {
+    &>h3 {
+        color: #fff !important;
+    }
+    &>span {
+        display: block;
+        width: 218px;
+        height: 1px;
+        background-color: #FFF;
+    }
+}
+// 合作伙伴的标题
+.partner-title {
+    margin-bottom: 10px;
+    &>h3 {
+        margin-top: 0;
+    }
+}
+// banner框架
+.banner {
+    position: relative;
+    width: 1260px;
+    height: 607px;
+    margin: 0 auto;
+    background-image: url("../../images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+// banner背景
+// .banner-img {
+//     width: 1370px;
+//     height: 607px;
+//     margin: 0 auto;
+//     background-image: url("../../images/banner.jpg");
+// }
+// banner里面的描述信息
+.banner-info {
+    font-family: "微软雅黑";
+    position: absolute;
+    top: 100px;
+    color: #fff;
+    left: 50%;
+    width: 1000px;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    text-align: center;
+    &>h2 {
+        font-size: 62px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        margin-top: 43px;
+    }
+    &>h5 {
+        font-size: 26px;
+        margin-top: 37px;
+        margin-bottom: 75px;
+        letter-spacing: 10px;
+        font-weight: 400;
+    }
+}
+// banner里面的四个图片
+.banner-info-icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-429px);
+    width: 100%;
+    &>section {
+        position: relative;
+        width: 138px;
+        height: 138px;
+        border: 2px solid rgba($color: #fff, $alpha: .7);
+        border-radius:10px;
+        float: left;
+        margin-right: 100px;
+        transform: rotate(45deg);
+        cursor: pointer;
+        &:last-child {
+            margin: 0;
+        }
+        &>h5 {
+            font-family: "微软雅黑";
+            position: absolute;
+            transform: rotate(-45deg);
+            top: 105%;
+            left: 70%;
+            // transform: translateX(-50%);
+            white-space: nowrap;
+            font-size: 18px;
+            color: #f9fafc;
+            letter-spacing: 2px;
+            font-weight: 400;
+        }
+        &>img {
+            position: absolute;
+            right: 28%;
+            top: 20%;
+            transform: rotate(-45deg);
+        }
+        &:hover {
+          box-shadow: 0px 0px 5px rgba($color: #FFF, $alpha: .5);
+        }
+    }
+}
+// 我们提供给的服务框架
+.service {
+    position: relative;
+    width: 1260px;
+    margin:0 auto;
+    margin-bottom: 64px;
+}
+// 我们提供的服务每个单元的内容
+.service-item {
+    position: relative;
+    width: 1000px;
+    height: 366px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+    &>section {
+        width: 300px;
+        height: 366px;
+        margin-right: 50px;
+        float: left;
+        text-align: center;
+        &:last-child{
+            margin: 0;
+        }
+        &>img {
+            margin-bottom: 26px;
+        }
+        &>h3 {
+            font-size: 22px;
+            letter-spacing: 2px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        &>p {
+            line-height: 34px;
+        }
+    }
+}
+// 关于我们部分
+.aboutUs {
+    position: relative;
+    width:1260px;
+    height: 463px;
+    margin: 0 auto;
+    background-image: url("../../images/aboutus.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 1px;
+    text-align: center;
+    &>p {
+        color: #fff;
+        font-size: 18px;
+        letter-spacing: 4px;
+    }
+}
+.aboutUs-item {
+    position: relative;
+    width: 930px;
+    margin: 0 auto;
+    height: 120px;
+    // left: 625px;
+    &>a{
+        display: block;
+        margin-right: 145px;
+        float: left;
+        text-decoration: none;
+        &:last-child {
+            margin-right: 0;
+        }
+        &>section {
+            width: 120px;
+            height: 120px;
+            border: 1px solid #fff;
+            border-radius: 100px;
+            margin-top: 64px;
+            cursor: pointer;
+            &:hover {
+                box-shadow: 0px 0px 5px rgba($color: #FFF, $alpha: .5);
+            }
+            &>img {
+                margin-top: 30px;
+            }
+            &>h4 {
+                margin-top: 40px;
+                color: #fff;
+                font-size: 20px;
+                letter-spacing: 3px;
+                font-weight: 400;
+            }
+        }
+    }
+
+}
+.search {
+    position: relative;
+    width:1260px;
+    height: 102px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 45px;
+}
+#searchForm {
+    height: 102px;
+    width: 846px;
+    margin: 0 auto;
+    border: 1px solid #0068b7;
+    border-radius: 10px;
+    &>input {
+        height: 99%;
+        width: 526px;
+        border-radius: 10px;
+        border: 0px;
+        line-height: 90px;
+        font-size: 50px;
+        color: #333;
+        font-weight: 300;
+    }
+    &>button {
+        float: right;
+        width: 320px;
+        height: 100%;
+        background-color: #0068b7;
+        border: 0;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 27px;
+        font-weight: 300;
+        letter-spacing: 5px;
+        line-height: 102px;
+        cursor: pointer;
+        &>span {
+            display: inline-block;
+            height: 54px;
+            width: 54px;
+            background-image: url("../../images/search.png");
+            position: relative;
+            top: 20px;
+            right: 5px;
+        }
+    }
+}
+.proInfo {
+    position: relative;
+    width:1280px;
+    height: 517px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 45px;
+    background-image: url("../../images/info.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.advantage {
+    position: relative;
+    width:1260px;
+    height: 615px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 45px;
+    background-image: url("../../images/advantage-bg.jpg");
+    margin-top: 18px;
+    padding-top: 1px;
+}
+.advantage-item {
+    width: 1240px;
+    height: 290px;
+    margin: 0 auto;
+    &>section {
+        box-sizing: border-box;
+        width: 276px;
+        height: 290px;
+        float: left;
+        border: 1px solid #4a9dca;
+        border-radius: 10px;
+        margin-right: 45px;
+        margin-top: 90px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &>h4 {
+            position: relative;
+            left: 39px;
+            top: -79px;
+            display: block;
+            width: 158px;
+            height: 158px;
+            background-color: #4a9dca;
+            border-radius: 100px;
+            line-height: 158px;
+            font-size: 34px;
+            color: #fff;
+            font-weight: 300;
+            letter-spacing: 6px;
+        }
+        &>h5 {
+            position: relative;
+            top: -45px;
+            font-size: 22px;
+            font-weight: 300;
+            color: #fff;
+            letter-spacing: 3px;
+        }
+        &>p {
+            position: relative;
+            top: -20px;
+            font-weight: 300;
+            font-size: 16px;
+            letter-spacing: 3px;
+            line-height: 25px;
+            color: #fff;
+        }
+    }
+}
+.partner {
+    position: relative;
+    width:1260px;
+    height: 630px;
+    margin: 0 auto;
+    background: #fff;
+    background-image: url("../../images/partner-bg.jpg");
+    background-repeat: no-repeat;
+    padding-top: 38px;
+}
+.parter-item {
+    width: 1260px;
+    height: 448px;
+    margin: 0 auto;
+    cursor: pointer;
+    &>section {
+        width: 293px;
+        height: 197px;
+        float: left;
+        margin-right: 29px;
+        margin-top: 50px;
+        border-radius: 10px;
+        &:nth-child(4) {
+            margin-right: 0px;
+        }
+        &:nth-child(8) {
+            margin-right: 0px;
+        }
+        &:hover {
+            box-shadow: 0px 0px 5px rgba($color: #FFF, $alpha: .5);
+        }
+    }
+}

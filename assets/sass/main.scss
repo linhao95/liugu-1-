@@ -1,0 +1,348 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?eczng7');
+    src: url('../fonts/icomoon.eot?eczng7#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?eczng7') format('truetype'), url('../fonts/icomoon.woff?eczng7') format('woff'), url('../fonts/icomoon.svg?eczng7#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: 100%; // overflow-x: hidden;
+}
+
+// 1280以上有效
+// 每个区域的标题样式
+.content-title {
+    position: relative;
+    text-align: center;
+    font-family: "微软雅黑";
+    margin-bottom: 70px;
+    &>h3 {
+        position: relative; // top: 10px;
+        font-size: 40px;
+        color: #000;
+        font-weight: 400;
+        letter-spacing: 3px;
+        margin-top: 34px;
+    }
+    &>span {
+        display: block;
+        width: 218px;
+        height: 1px;
+        background-color: #434343;
+        &:first-child {
+            position: absolute;
+            left: 250px;
+            top: 50%;
+        }
+        &:last-child {
+            position: absolute;
+            right: 250px;
+            top: 50%;
+        }
+    }
+} // 头部信息
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgba($color: #fefefe, $alpha: 0.9);
+    z-index: 100;
+    &.small {
+        background-color: rgba($color: #fefefe, $alpha: .9);
+        box-shadow: 2px 0px 4px rgba($color: #000, $alpha: 0.2);
+        height: 60px;
+        &>div {
+            height: 60px;
+        }
+        .logo {
+            height: 60px;
+            &>img {
+                margin-top: 2px;
+            }
+        }
+        nav {
+            height: 60px;
+            &>ul {
+                &>li {
+                    line-height: 60px;
+                    &.current {
+                        &>a {
+                            padding-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    } // 头部的内容区域框架
+    &>div {
+        position: relative;
+        top: 0;
+        width: 1280px;
+        height: 100px;
+        margin: 0 auto;
+    } // logo的样式
+    .logo {
+        position: absolute;
+        left: 0;
+        width: 150px;
+        height: 100px;
+        &>img {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+    } // 导航的样式
+    nav {
+        position: absolute;
+        right: 0;
+        height: 100px;
+        &>ul {
+            list-style: none;
+            font-family: "微软雅黑";
+            &>li {
+                float: left;
+                line-height: 100px;
+                margin-right: 40px;
+                font-size: 18px;
+                &>a {
+                    color: #050505;
+                    letter-spacing: 3px;
+                    text-decoration: none;
+                    &:hover {
+                        color: #3c69ad;
+                    }
+                }
+                &.current {
+                    &>a {
+                        color: #3c69ad;
+                        padding-bottom: 35px;
+                        border-bottom: 3px solid #3c69ad;
+                    }
+                }
+            }
+        }
+    }
+}
+footer {
+    background-color: rgba($color: #5e7799, $alpha: 0.95);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    .zixun {
+        position: relative;
+        width: 1200px;
+        height: 100px;
+        margin: 0 auto; // background-color: red;
+    }
+    .zixun-info {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 284px;
+        height: 76px;
+        &>h4 {
+            font-size: 18px;
+            color: #fff;
+            letter-spacing: 3px;
+            font-weight: 300;
+            margin-top: 10px;
+            &:first-child {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .zixun-form {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        width: 284px;
+        height: 76px;
+        border: 1px solid #fff;
+        padding: 2px 2px;
+        input {
+            height: 37px;
+            border: 0;
+            padding-left: 4px;
+            &:first-child {
+                margin-bottom: 2px;
+            }
+        }
+        button {
+            float: right;
+            height: 76px;
+            width: 110px;
+            border: 0;
+            background-color: transparent;
+            cursor: pointer;
+            color: #fff;
+            letter-spacing: 2px;
+            &:hover {
+                text-shadow: 0px 0px 3px #fff;
+            }
+        }
+    }
+    .zixun-item {
+        width: 700px;
+        height: 50px;
+        position: absolute;
+        top: 25px;
+        left: 280px;
+        &>section {
+            width: auto;
+            height: 50px;
+            float: left;
+            margin-right: 22px;
+            line-height: 50px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 2px;
+            &>span {
+                margin-right: 5px;
+                cursor: pointer;
+            }
+            &:nth-child(1) {
+                &>span {
+                    font-family: "icomoon";
+                    &:nth-child(1) {
+                        &::before {
+                            content: "\ea93";
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {}
+            &:nth-child(3) {
+                &>span {
+                    font-family: "icomoon";
+                    &:nth-child(1) {
+                        &::before {
+                            content: "\e92e";
+                        }
+                    }
+                }
+            }
+            &:nth-child(4) {}
+            &:nth-child(5) {
+                margin-right: 0;
+                &>span {
+                    font-family: "icomoon";
+                    &:nth-child(1) {
+                        &::before {
+                            content: "\ea4e";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1280px) {
+    header {
+        height: 80px;
+        &>div {
+            position: relative;
+            top: 0;
+            width: 1280px;
+            height: 80px;
+            margin: 0 auto;
+        } // logo的样式
+        .logo {
+            height: 80px;
+            &>img {
+                margin-top: 15px;
+            }
+        } 
+        // 导航的样式
+        nav {
+            height: 80px;
+            &>ul {
+                &>li {
+                    line-height: 80px;
+                    &.current {
+                        &>a {
+                            padding-bottom: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        height: 80px;
+        .zixun {
+            height: 80px;
+        }
+        .zixun-info {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 284px;
+            // height: 50px;
+            &>h4 {
+                font-size: 16px;
+                color: #fff;
+                letter-spacing: 3px;
+                font-weight: 300;
+                margin-top: 10px;
+                &:first-child {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .zixun-form {
+            height: 70px;
+            border: 1px solid #fff;
+            padding: 2px 2px;
+            input {
+                height: 34px;
+            }
+            button {
+                height: 70px;
+                border: 0;
+            }
+        }
+        .zixun-item {
+            &>section {
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+.contactUs {
+    position: relative;
+    width:1200px;
+    height: 220px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+.contactUs-info {
+    &>h4{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    &>h5 {
+        font-size: 20px;
+        color: #040404;
+        font-weight: 400;
+        line-height: 40px;
+    }
+}
+.contactUs-logo {
+    float: right;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
